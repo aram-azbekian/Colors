@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("witch123")
-            .resizable()
-            .scaledToFit()
+        PDFImageView("witch123")
     }
 }
 
