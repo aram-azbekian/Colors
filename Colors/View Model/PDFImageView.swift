@@ -10,10 +10,10 @@ import SwiftUI
 
 struct PDFImageView: UIViewRepresentable {
     
-    var image: UIImage
+    let image: UIImage
     
-    init(_ image: String) {
-        self.image = UIImage(imageLiteralResourceName: image)
+    init(name: String) {
+        self.image = UIImage(imageLiteralResourceName: name)
     }
     
     func makeUIView(context _: UIViewRepresentableContext<PDFImageView>) -> PDFView {

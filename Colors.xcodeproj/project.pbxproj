@@ -12,6 +12,7 @@
 		2452EEFE26F92AFA0031F95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EEFD26F92AFA0031F95C /* Assets.xcassets */; };
 		2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */; };
 		245F320B26FB65D700094B00 /* PDFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245F320A26FB65D700094B00 /* PDFImageView.swift */; };
+		246F3944270355D80040E186 /* ColoringImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F3943270355D80040E186 /* ColoringImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2452EEFD26F92AFA0031F95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		245F320A26FB65D700094B00 /* PDFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageView.swift; sourceTree = "<group>"; };
+		246F3943270355D80040E186 /* ColoringImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				2452EEF926F92AF90031F95C /* ColorsApp.swift */,
-				2452EEFB26F92AF90031F95C /* ContentView.swift */,
-				245F320A26FB65D700094B00 /* PDFImageView.swift */,
+				246F3940270349050040E186 /* View Model */,
+				246F3941270349290040E186 /* View */,
+				246F3942270355280040E186 /* Model */,
 				2452EEFD26F92AFA0031F95C /* Assets.xcassets */,
 				2452EEFF26F92AFA0031F95C /* Preview Content */,
 			);
@@ -68,6 +71,30 @@
 				2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		246F3940270349050040E186 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				245F320A26FB65D700094B00 /* PDFImageView.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		246F3941270349290040E186 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2452EEFB26F92AF90031F95C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		246F3942270355280040E186 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				246F3943270355D80040E186 /* ColoringImage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +169,7 @@
 			files = (
 				245F320B26FB65D700094B00 /* PDFImageView.swift in Sources */,
 				2452EEFC26F92AF90031F95C /* ContentView.swift in Sources */,
+				246F3944270355D80040E186 /* ColoringImage.swift in Sources */,
 				2452EEFA26F92AF90031F95C /* ColorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Colors/Preview Content\"";
+				DEVELOPMENT_TEAM = 73NTXCDR2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Colors/Preview Content\"";
+				DEVELOPMENT_TEAM = 73NTXCDR2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
