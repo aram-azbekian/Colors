@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240C767E2707209300B3AF19 /* SVGViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C767D2707209300B3AF19 /* SVGViewExtension.swift */; };
 		2452EEFA26F92AF90031F95C /* ColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452EEF926F92AF90031F95C /* ColorsApp.swift */; };
 		2452EEFC26F92AF90031F95C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452EEFB26F92AF90031F95C /* ContentView.swift */; };
 		2452EEFE26F92AFA0031F95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EEFD26F92AFA0031F95C /* Assets.xcassets */; };
 		2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */; };
-		245F320B26FB65D700094B00 /* PDFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245F320A26FB65D700094B00 /* PDFImageView.swift */; };
-		246F3944270355D80040E186 /* ColoringImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F3943270355D80040E186 /* ColoringImage.swift */; };
+		24E062B82705E3D30060FD55 /* SVGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E062B72705E3D30060FD55 /* SVGImageView.swift */; };
+		24F5E16127063B18004C06A7 /* russiaLow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 24F5E16027063B18004C06A7 /* russiaLow.svg */; };
+		847021F428520DBF2088EDD1 /* Pods_Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DE465CA883CC04016117EF /* Pods_Colors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		240C767D2707209300B3AF19 /* SVGViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGViewExtension.swift; sourceTree = "<group>"; };
 		2452EEF626F92AF90031F95C /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2452EEF926F92AF90031F95C /* ColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsApp.swift; sourceTree = "<group>"; };
 		2452EEFB26F92AF90031F95C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2452EEFD26F92AFA0031F95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		245F320A26FB65D700094B00 /* PDFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFImageView.swift; sourceTree = "<group>"; };
-		246F3943270355D80040E186 /* ColoringImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringImage.swift; sourceTree = "<group>"; };
+		24E062B72705E3D30060FD55 /* SVGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImageView.swift; sourceTree = "<group>"; };
+		24F5E16027063B18004C06A7 /* russiaLow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = russiaLow.svg; sourceTree = "<group>"; };
+		8DE5E7515EC191C6FC6C6A53 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3A581A2BD0666F0BD5AC07 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
+		F5DE465CA883CC04016117EF /* Pods_Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +36,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847021F428520DBF2088EDD1 /* Pods_Colors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14F28616CF6FDC8202B4F11D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE465CA883CC04016117EF /* Pods_Colors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2452EEED26F92AF90031F95C = {
 			isa = PBXGroup;
 			children = (
 				2452EEF826F92AF90031F95C /* Colors */,
 				2452EEF726F92AF90031F95C /* Products */,
+				31C11D6F8A02296FFDEE3CEB /* Pods */,
+				14F28616CF6FDC8202B4F11D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				2452EEF926F92AF90031F95C /* ColorsApp.swift */,
-				246F3940270349050040E186 /* View Model */,
-				246F3941270349290040E186 /* View */,
-				246F3942270355280040E186 /* Model */,
+				2452EEFB26F92AF90031F95C /* ContentView.swift */,
+				24E062B72705E3D30060FD55 /* SVGImageView.swift */,
+				240C767D2707209300B3AF19 /* SVGViewExtension.swift */,
 				2452EEFD26F92AFA0031F95C /* Assets.xcassets */,
+				24F5E16027063B18004C06A7 /* russiaLow.svg */,
 				2452EEFF26F92AFA0031F95C /* Preview Content */,
 			);
 			path = Colors;
@@ -73,28 +91,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		246F3940270349050040E186 /* View Model */ = {
+		31C11D6F8A02296FFDEE3CEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				245F320A26FB65D700094B00 /* PDFImageView.swift */,
+				8DE5E7515EC191C6FC6C6A53 /* Pods-Colors.debug.xcconfig */,
+				AA3A581A2BD0666F0BD5AC07 /* Pods-Colors.release.xcconfig */,
 			);
-			path = "View Model";
-			sourceTree = "<group>";
-		};
-		246F3941270349290040E186 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2452EEFB26F92AF90031F95C /* ContentView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		246F3942270355280040E186 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				246F3943270355D80040E186 /* ColoringImage.swift */,
-			);
-			path = Model;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2452EF0426F92AFA0031F95C /* Build configuration list for PBXNativeTarget "Colors" */;
 			buildPhases = (
+				51182572BD50A33AA1B758BD /* [CP] Check Pods Manifest.lock */,
 				2452EEF226F92AF90031F95C /* Sources */,
 				2452EEF326F92AF90031F95C /* Frameworks */,
 				2452EEF426F92AF90031F95C /* Resources */,
+				D50C44384F65D4B4D968D467 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,21 +161,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */,
+				24F5E16127063B18004C06A7 /* russiaLow.svg in Resources */,
 				2452EEFE26F92AFA0031F95C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51182572BD50A33AA1B758BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50C44384F65D4B4D968D467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2452EEF226F92AF90031F95C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				245F320B26FB65D700094B00 /* PDFImageView.swift in Sources */,
 				2452EEFC26F92AF90031F95C /* ContentView.swift in Sources */,
-				246F3944270355D80040E186 /* ColoringImage.swift in Sources */,
+				240C767E2707209300B3AF19 /* SVGViewExtension.swift in Sources */,
 				2452EEFA26F92AF90031F95C /* ColorsApp.swift in Sources */,
+				24E062B82705E3D30060FD55 /* SVGImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +343,7 @@
 		};
 		2452EF0526F92AFA0031F95C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE5E7515EC191C6FC6C6A53 /* Pods-Colors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +374,7 @@
 		};
 		2452EF0626F92AFA0031F95C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A581A2BD0666F0BD5AC07 /* Pods-Colors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
