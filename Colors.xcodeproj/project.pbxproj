@@ -14,6 +14,7 @@
 		2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */; };
 		24E062B82705E3D30060FD55 /* SVGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E062B72705E3D30060FD55 /* SVGImageView.swift */; };
 		24F5E16127063B18004C06A7 /* russiaLow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 24F5E16027063B18004C06A7 /* russiaLow.svg */; };
+		BEAB7FBBAE68451D09EFF386 /* Pods_Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB94054AD4E0036982F57CA /* Pods_Colors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,9 @@
 		2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24E062B72705E3D30060FD55 /* SVGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImageView.swift; sourceTree = "<group>"; };
 		24F5E16027063B18004C06A7 /* russiaLow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = russiaLow.svg; sourceTree = "<group>"; };
+		7DB94054AD4E0036982F57CA /* Pods_Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84230279E2650B528DA6E234 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0F544BECC7AAA7BB5F0E4A /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAB7FBBAE68451D09EFF386 /* Pods_Colors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 				2452EEF826F92AF90031F95C /* Colors */,
 				2452EEF726F92AF90031F95C /* Products */,
 				31C11D6F8A02296FFDEE3CEB /* Pods */,
+				CEFA4AAB0DD38641F3E80B0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,8 +86,18 @@
 		31C11D6F8A02296FFDEE3CEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				84230279E2650B528DA6E234 /* Pods-Colors.debug.xcconfig */,
+				DB0F544BECC7AAA7BB5F0E4A /* Pods-Colors.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEFA4AAB0DD38641F3E80B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB94054AD4E0036982F57CA /* Pods_Colors.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2452EF0426F92AFA0031F95C /* Build configuration list for PBXNativeTarget "Colors" */;
 			buildPhases = (
+				016406DC340CF6FB92F31A61 /* [CP] Check Pods Manifest.lock */,
 				2452EEF226F92AF90031F95C /* Sources */,
 				2452EEF326F92AF90031F95C /* Frameworks */,
 				2452EEF426F92AF90031F95C /* Resources */,
+				EF874580F7065245D2971B9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016406DC340CF6FB92F31A61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF874580F7065245D2971B9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colors/Pods-Colors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2452EEF226F92AF90031F95C /* Sources */ = {
@@ -283,6 +343,7 @@
 		};
 		2452EF0526F92AFA0031F95C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84230279E2650B528DA6E234 /* Pods-Colors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +374,7 @@
 		};
 		2452EF0626F92AFA0031F95C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0F544BECC7AAA7BB5F0E4A /* Pods-Colors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
