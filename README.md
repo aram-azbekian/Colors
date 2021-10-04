@@ -13,3 +13,4 @@ A simple demo Swift app that allows user to color SVG images
 2. SwiftUI
 3. Porting UIKit views in SwiftUI
 4. Macaw library
+5. Interaction with SVG images
