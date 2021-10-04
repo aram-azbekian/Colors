@@ -20,7 +20,7 @@ struct SVGImageView: UIViewRepresentable {
         svgView.backgroundColor = UIColor.white
         svgView.contentMode = .scaleAspectFit
         svgView.layer.borderWidth = 1.0
-        svgView.layer.borderColor = UIColor.black.cgColor
+        svgView.layer.borderColor = UIColor.white.cgColor
         svgView.zoom.enable()
         
         return svgView
@@ -30,14 +30,4 @@ struct SVGImageView: UIViewRepresentable {
         uiView.registerForSelection()
     }
     
-}
-
-struct MacawSVGView: View {
-    var body: some View {
-        GeometryReader { (geometry: GeometryProxy) in
-            SVGImageView(svgName: "russiaLow", size: geometry.size)
-                .frame(width: geometry.size.width, height: geometry.size.height)
-                .border(Color.red)
-        }
-    }
 }

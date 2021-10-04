@@ -13,10 +13,10 @@ extension SVGView {
         self.node.nodesBy(predicate: { $0.visible && !$0.tag.isEmpty  }).forEach { node in
             node.onTap { event in
                 let nodeShape = node as! Shape
-                if nodeShape.fill == Color.white {
+                if nodeShape.fill != Color.blue {
                     nodeShape.fill = Color.blue
                 } else {
-                    nodeShape.fill = Color.white
+                    nodeShape.fill = Color.rgb(r: 204, g: 204, b: 204)
                 }
             }
         }

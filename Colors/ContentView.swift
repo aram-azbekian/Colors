@@ -15,7 +15,7 @@ struct ContentView: View {
     @State var position: CGSize = .zero
     
     var body: some View {
-        MacawSVGView()
+        SVGImageView(svgName: "russiaLow", size: UIScreen.main.bounds.size)
     }
 }
 
