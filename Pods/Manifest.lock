@@ -1,29 +1,20 @@
 PODS:
-  - Macaw (0.9.7):
+  - Macaw (0.9.8):
     - SWXMLHash
   - SWXMLHash (6.0.0)
 
 DEPENDENCIES:
-  - Macaw (from `https://github.com/exyte/Macaw.git`, branch `769-SWXMLHash-Compatibility`)
+  - Macaw (= 0.9.8)
 
 SPEC REPOS:
   trunk:
+    - Macaw
     - SWXMLHash
 
-EXTERNAL SOURCES:
-  Macaw:
-    :branch: 769-SWXMLHash-Compatibility
-    :git: https://github.com/exyte/Macaw.git
-
-CHECKOUT OPTIONS:
-  Macaw:
-    :commit: dfcfdbe25b47329a2490965a6ea7f8f24b540597
-    :git: https://github.com/exyte/Macaw.git
-
 SPEC CHECKSUMS:
-  Macaw: 4a931baf9a9826b06d0d8ecf300014c962ab9d50
+  Macaw: a361fab744f87f108f0376c3204357e4068f2630
   SWXMLHash: 9d851ed3edf48ec2bd0db98f0cda0ad4136d75e3
 
-PODFILE CHECKSUM: 5c88032c4fdc01d961189b029c1826ab7a4ed064
+PODFILE CHECKSUM: 7613615b413780f762ae6f531c119689d3a4fb9b
 
 COCOAPODS: 1.11.2

@@ -9,13 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var currentScale: CGFloat = 0.0
-    @State var finalScale: CGFloat = 1.0
-    @State var offset: CGSize = .zero
-    @State var position: CGSize = .zero
-    
     var body: some View {
-        SVGImageView(svgName: "russiaLow", size: UIScreen.main.bounds.size)
+        SVGImageView("russiaLow")
     }
 }
 

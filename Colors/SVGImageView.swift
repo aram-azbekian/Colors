@@ -11,12 +11,15 @@ import Macaw
 private var pathArray = [String]()
 
 struct SVGImageView: UIViewRepresentable {
+    
     let svgName: String
-    let size: CGSize
+    init(_ name: String) {
+        self.svgName = name
+    }
     
     func makeUIView(context: Context) -> SVGView {
         let node = try! SVGParser.parse(resource: svgName)
-        let svgView = SVGView(node: node, frame: CGRect(origin: CGPoint.zero, size: size))
+        let svgView = SVGView(node: node, frame: CGRect(origin: CGPoint.zero, size: UIScreen.main.bounds.size))
         svgView.backgroundColor = UIColor.white
         svgView.contentMode = .scaleAspectFit
         svgView.layer.borderWidth = 1.0

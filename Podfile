@@ -6,6 +6,6 @@ target 'Colors' do
   use_frameworks!
 
   # Pods for Colors
-  pod "Macaw", :git => 'https://github.com/exyte/Macaw.git', :branch => '769-SWXMLHash-Compatibility'
+  pod "Macaw", "0.9.8"
 
 end

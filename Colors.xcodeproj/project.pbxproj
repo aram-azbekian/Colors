@@ -12,8 +12,8 @@
 		2452EEFC26F92AF90031F95C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2452EEFB26F92AF90031F95C /* ContentView.swift */; };
 		2452EEFE26F92AFA0031F95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EEFD26F92AFA0031F95C /* Assets.xcassets */; };
 		2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */; };
+		2456655F271DDAAE008A5782 /* russiaLow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2456655E271DDAAE008A5782 /* russiaLow.svg */; };
 		24E062B82705E3D30060FD55 /* SVGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E062B72705E3D30060FD55 /* SVGImageView.swift */; };
-		24F5E16127063B18004C06A7 /* russiaLow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 24F5E16027063B18004C06A7 /* russiaLow.svg */; };
 		BEAB7FBBAE68451D09EFF386 /* Pods_Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB94054AD4E0036982F57CA /* Pods_Colors.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +24,8 @@
 		2452EEFB26F92AF90031F95C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2452EEFD26F92AFA0031F95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2452EF0026F92AFA0031F95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2456655E271DDAAE008A5782 /* russiaLow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = russiaLow.svg; sourceTree = "<group>"; };
 		24E062B72705E3D30060FD55 /* SVGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGImageView.swift; sourceTree = "<group>"; };
-		24F5E16027063B18004C06A7 /* russiaLow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = russiaLow.svg; sourceTree = "<group>"; };
 		7DB94054AD4E0036982F57CA /* Pods_Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84230279E2650B528DA6E234 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
 		DB0F544BECC7AAA7BB5F0E4A /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,10 +66,10 @@
 			children = (
 				2452EEF926F92AF90031F95C /* ColorsApp.swift */,
 				2452EEFB26F92AF90031F95C /* ContentView.swift */,
-				24E062B72705E3D30060FD55 /* SVGImageView.swift */,
 				240C767D2707209300B3AF19 /* SVGViewExtension.swift */,
+				24E062B72705E3D30060FD55 /* SVGImageView.swift */,
 				2452EEFD26F92AFA0031F95C /* Assets.xcassets */,
-				24F5E16027063B18004C06A7 /* russiaLow.svg */,
+				2456655E271DDAAE008A5782 /* russiaLow.svg */,
 				2452EEFF26F92AFA0031F95C /* Preview Content */,
 			);
 			path = Colors;
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2452EF0126F92AFA0031F95C /* Preview Assets.xcassets in Resources */,
-				24F5E16127063B18004C06A7 /* russiaLow.svg in Resources */,
+				2456655F271DDAAE008A5782 /* russiaLow.svg in Resources */,
 				2452EEFE26F92AFA0031F95C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

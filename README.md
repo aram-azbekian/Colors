@@ -1,14 +1,13 @@
 # Colors
 A simple demo Swift app that allows user to color SVG images
 
-## TODO:
+## Changelog:
   - [x] Initialize new repository
   - [x] Display SVG image in app
   - [x] Resize image with a pinch of fingers
   - [x] Color image's countours on user's tap
-  - [ ] Animate the color fill
-  - [ ] Tabbar with 2 views: a) list of all available images, b) list of user selected images
-  - [ ] Save and track changes made by user with CoreData
+  - [x] Animate the color fill
+  - [x] Transition on v. 0.9.8 of Macaw lib (fixes bug with SWXML 6.0 compatibility)
 
 ## The Stack
 
